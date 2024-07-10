@@ -376,18 +376,21 @@ text-align:left;
 .content{
 list-style-type: none;
 display: flex;
+gap: 
 
 }
 .c4{
   position: relative;
   top: -400px;  
+  left: 100px;
 
 }
+
 .c5{
     position: relative;
-    padding: 100px;
-    top: -550px; 
-    right: 40px;
+    padding: 80px;
+    top: -600px; 
+    right: -100px;
 
 }
 .c5 h3{
