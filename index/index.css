@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     font-family: "Azeret Mono", monospace; 
-   
+   margin: 0 auto;
+   max-width: 1920px;
 
 }
 
@@ -83,7 +84,7 @@ color: antiquewhite;
     text-align: center;
     font-size: 32px;
     font-weight: 800;
-    right: -250px;
+    right: -10px;
 }
 .reason p{
     position: relative;
@@ -91,12 +92,14 @@ color: antiquewhite;
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
-    right: -250px;
+    right: -10px;
 }
 .r3{
+    position: relative;
 text-align: left;
 padding: 48px;
 display: inline-block;
+top: 10px;
 
 
 }
@@ -124,7 +127,7 @@ display: inline-block;
     /* Group */
 position: relative;
 
-top:-200px;
+top:-160px;
 right: -900px;
 
 }
@@ -158,7 +161,7 @@ right: -900px;
     padding: 12px 20px 12px 20px;
     font-size: 20px;
     font-weight: 600;
-    left: 5px;
+    right: -265px;
 
 }
     .r4 h4, .r4 p {
@@ -197,7 +200,7 @@ right: -900px;
     #img3{
       
     position: relative;
-    top: -550px;
+    top: -520px;
     left :900px;
     }
     .r5 h4, .r5 p {
@@ -380,7 +383,7 @@ display: flex;
 }
 .c4{
   position: relative;
-  top: -280px;  
+  top: -400px;  
   left: 50px;
 
 }
@@ -437,16 +440,16 @@ right: 100px;
 top: 5200px;
 bottom: px;
 border-radius: 16px;
-background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+background: rgba(230, 115, 115, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .fot img{
 
-    position: relative;
-    height: 400px;
+position: relative;
+height: 400px;
 border-radius: 16px;
-left: 480px;
-width: 700px;
-top: 250px;
+left: 280px;
+width: 800px;
+top: 150px;
 }
 .fot2{
     position: relative;
@@ -463,8 +466,8 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
-top: 170px;
-left: 700px;
+top: 130px;
+left: 135px;
 
 }
 .fot2 p{
@@ -475,18 +478,18 @@ left: 700px;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
-    top: 170px;
-    left: 700px;
+    top: 130px;
+    left: 135px;
 }
 
 .last{
-/* Frame 21 */
+
 position: relative;
 width: 1440px;
 height: 100px;
 left: 0;
-top: 5300px;
-/* Auto layout */
+top: 5600px;
+
 display: flex;
 
 justify-content: inline;
@@ -517,6 +520,9 @@ background: rgba(13, 19, 33, 0.03);
     text-align: center;
     top: 50px;
     right: 250px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    justify-items: center;
 
 }
 
