@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     font-family: "Azeret Mono", monospace; 
-    max-width: 1917px;
+    max-width: 1600px;
     margin: 0 auto;
 
 }
@@ -31,13 +31,14 @@ text-align: center;
 }
 .Img{
     background-image: url(../assets/Hero-bg.png);
-position: absolute;
-width: 1917px;
-height: 500px;
-left: 0;
-right: 0;
-top: 135px;
-bottom: 4462px;
+    position: absolute;
+    width: 1917px;
+    height: 500px;
+    left: 0;
+    right: 0;
+    top: 135px;
+    bottom: 4462px;
+
 }
 .Middle{
     display: flex;
@@ -62,6 +63,9 @@ align-items: center;
 padding: 21px 24px 21px 24px;
 color: antiquewhite;
 
+}
+.Middle p{
+    text-align: center;
 }
 .reason{
     position: absolute;
@@ -502,7 +506,7 @@ background: rgba(13, 19, 33, 0.03);
     justify-content: inline;
     gap: 20px;
     top: 50px;
-    right: -300px;
+    right: -200px;
 }
 .last p{
     position: relative;
@@ -513,7 +517,7 @@ background: rgba(13, 19, 33, 0.03);
     letter-spacing: 0%;
     text-align: center;
     top: 50px;
-    right: 300px;
+    right: 250px;
 
 }
 
