@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     font-family: "Azeret Mono", monospace; 
-    max-width: 1600px;
-    margin: 0 auto;
+   
 
 }
 
@@ -80,15 +79,19 @@ color: antiquewhite;
 
 }
 .reason h3{
+    position: relative; 
     text-align: center;
     font-size: 32px;
     font-weight: 800;
+    right: -250px;
 }
 .reason p{
+    position: relative;
     text-align: center;
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
+    right: -250px;
 }
 .r3{
 text-align: left;
@@ -98,13 +101,17 @@ display: inline-block;
 
 }
 .r3 h4{
+    position: relative;
     font-size: 24px;
     font-weight: 700;
+   
 
 }
 .r3 p{
+    position: relative;
     font-size: 16px;
     font-weight: 400;
+    right: 3px;
 }
 
 .r3 button{
@@ -115,53 +122,43 @@ display: inline-block;
 }
 #img1{
     /* Group */
-position: absolute;
-width: 259.56px;
-height: 217.01px;
-left:800px;
-right: -0.36%;
-top:135px;
-bottom: -1.74%;
+position: relative;
+
+top:-200px;
+right: -900px;
+
 }
 #img2{
-    position: absolute;
-width: 259.56px;
-height: 217.01px;
-left:-0.36%;
-right:800px
- ;
-top:500px;
-bottom: -1.74%;
+    position: relative;
+    top: -100px;
 
 }
 .r4{
-  margin-top: 175px;  
-text-align:right;
-padding: 48px;
-display: block;
-justify-content: left;
-
-
-
+    position: relative;
+    top: -350px;
+    left: 300px;
 }
 .r4 h4{
+    position: relative;
     font-size: 24px;
     font-weight: 700;
 
 }
 .r4 p{
+    position: relative;
     font-size: 16px;
     font-weight: 400;
     text-align:right;
+    right: 5px;
 }
 
 .r4 button{
-    position:absolute;
+    position:relative;
     margin-top: 20px;
     padding: 12px 20px 12px 20px;
     font-size: 20px;
     font-weight: 600;
-    left: 470px;
+    left: 5px;
 
 }
     .r4 h4, .r4 p {
@@ -170,11 +167,12 @@ justify-content: left;
         max-width: 600px; 
 }
 .r5{
+    position: relative;
     text-align: left;
     padding: 48px;
     display: inline-block;
-    position: relative;
-    top: 165px;
+
+    top: -255px;
     
     
     }
@@ -184,8 +182,10 @@ justify-content: left;
     
     }
     .r5 p{
+        position: relative;
         font-size: 16px;
         font-weight: 400;
+        right: 5px;
     }
     
     .r5 button{
@@ -196,13 +196,9 @@ justify-content: left;
     }
     #img3{
       
-    position: absolute;
-    width: 259.56px;
-    height: 217.01px;
-    left:800px;
-    right: -0.36%;
-    top:900px;
-    bottom: -1.74%;
+    position: relative;
+    top: -550px;
+    left :900px;
     }
     .r5 h4, .r5 p {
         text-align: left; 
