@@ -425,28 +425,29 @@ right: 25px;
 position: relative;
 width: 1140px;
 height: 314px;
-left: 10px;
-right: 100px;
-top: 5200px;
-bottom: px;
-border-radius: 16px;
-background: rgba(230, 115, 115, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+right: 150px;
+top: 3600px;
+
+
 }
 .fot img{
 
 position: relative;
-height: 400px;
+height: 300px;
 border-radius: 16px;
-left: 280px;
-width: 800px;
+left: 215px;
+width: 1000px;
 top: 150px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)
 }
 .fot2{
     position: relative;
 width: 292px;
 height: 36px;
-top: 5000px;
+top: 3350px;
 text-align: center;
+left: -160px;
 }
 .fot2 h3{
     position: relative;
@@ -462,7 +463,7 @@ left: 135px;
 }
 .fot2 p{
     position: relative;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
