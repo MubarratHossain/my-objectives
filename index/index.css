@@ -61,8 +61,13 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 21px 24px 21px 24px;
-color: antiquewhite;
+color: rgb(255, 255, 255);
 
+
+}
+.Middle a{
+    text-decoration: none;
+    color: white;
 }
 .Middle p{
     text-align: center;
@@ -305,7 +310,7 @@ text-align:left;
     position: relative;
     text-align: left;
 }
-.c3 button{
+.c3 button {
     margin-top: 20px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -314,6 +319,7 @@ text-align:left;
     opacity: 0.8;
     padding: 17px 24px 17px 24px;
     text-align: center;
+    text-decoration: none;
 }
 .c2 button{
     margin-top: 188px;  
@@ -324,7 +330,7 @@ text-align:left;
     opacity: 0.8;
     padding: 17px 24px 17px 24px;
     text-align: center;
-    
+    text-decoration: none;
 
 }
 .c1 button{ 
@@ -336,7 +342,20 @@ text-align:left;
     opacity: 0.8;
     padding: 17px 24px 17px 24px;
     text-align: center;
+    text-decoration: none;
 
+}
+.c1 a{
+    text-decoration: none;
+    color: black;
+}
+.c2 a{
+    text-decoration: none;
+    color: black;
+}
+.c3 a{
+    text-decoration: none;
+    color: black;
 }
 .frame3{
 
