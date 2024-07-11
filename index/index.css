@@ -89,7 +89,7 @@ font-weight: 800;
 .reason p{
    position: relative;
    right: -30px;
-   text-align: left;
+   text-align: center;
    padding: 10px;
  }
 .r3{
@@ -224,6 +224,7 @@ right: -1200px;
     font-size: 16px;
     font-weight: 400;
     padding: 20px;
+    text-align: center;
 }
 .frame iframe{
     position: static;
@@ -496,6 +497,12 @@ left: 135px;
     text-align: center;
     top: 130px;
     left: 135px;
+}
+.fot2 p input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
 }
 .dis a{
 text-decoration: none;
