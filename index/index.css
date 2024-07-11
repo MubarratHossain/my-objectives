@@ -68,53 +68,28 @@ color: antiquewhite;
     text-align: center;
 }
 .reason{
-
+    position: relative;
+    top: 900px;
 }
 .r2{
 
 }
 .reason h3{
-  /* Why Web Development?? */
-position: static;
-width: 852px;
-height: 39px;
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
+position: relative; 
+right: -830px;
 
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 24px 0px;
 }
 .reason p{
-    position: static;
-    width: 852px;
-    height: 52px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0px;
-    
-    /* Inside Auto Layout */
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 24px 0px;
+   position: relative;
+   right: -30px;
+   text-align: center;
+   padding: 10px;
  }
 .r3{
     position: static;
     width: 477px;
     height: 220px;
-    /* Auto layout */
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -143,7 +118,6 @@ margin: 24px 0px;
     font-weight: 600;
 }
 #img1{
-    /* Group */
 position: relative;
 
 top:-160px;
