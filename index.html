@@ -17,7 +17,7 @@
     <img src="assets/Group.png" alt="A developer cartoon">
     <h1> "In the near future, I hope to become a Developer."</h1>
     <p>In the near future,I hope to become a proficient developer,expanding my expertise beyond JavaScript, HTML, and CSS to include advanced web technologies and frameworks.I am committed to continuous learning and professional growth, aiming to contribute to innovative projects and make a significant impact in the tech industry. </p>
-    <button> Contact With Me</a></button>
+    <button class="scroll-button" onclick="scrollToFooter()">Contact With Me</button>
     </div>
    </section>
    </header>
@@ -117,8 +117,8 @@
             
         </div>
 </main>
-<footer>
-   <section class="last">
+<section class="last">
+<footer id="pos">
     <p>An Open Commitment by Mubarrat Hossain</p>
     <ul>
         <li><a href="https://www.facebook.com/ezab.dark"><img src="facebook.png" alt="Fbicon"></a></li>
@@ -126,5 +126,12 @@
         <li><a href="https://linkedin.com/in/mubarrat-hossain-ezab-479bb0317"><img src="linkedin-icon 1.png" alt="linkicon"></a></li>
     </ul>
    </section> 
-</footer>/
+</footer>
+<script>
+    function scrollToFooter() {
+        document.getElementById('pos').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+</body>
+</html>
     

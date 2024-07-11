@@ -544,9 +544,9 @@ background: rgba(13, 19, 33, 0.03);
     position:relative;
     display: flex;
     justify-content: inline;
-    gap: 20px;
-    top: 50px;
-    right: -200px;
+    gap: 0px;
+    top: 10px;
+    right: -350px;
 }
 .last p{
     position: relative;
