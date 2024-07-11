@@ -86,15 +86,9 @@ right: -830px;
    padding: 10px;
  }
 .r3{
-    position: static;
-    width: 477px;
-    height: 220px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
+   position:relative;
+   top: 20px;
+   left: 170px;
 
 }
 .r3 h4{
@@ -108,10 +102,11 @@ right: -830px;
     position: relative;
     font-size: 16px;
     font-weight: 400;
-    right: 3px;
+    left: -560px;
 }
 
 .r3 button{
+    position: relative;
     margin-top: 20px;
     padding: 12px 20px 12px 20px;
     font-size: 20px;
@@ -120,19 +115,20 @@ right: -830px;
 #img1{
 position: relative;
 
-top:-160px;
-right: -900px;
+top:-140px;
+right: -1300px;
 
 }
 #img2{
     position: relative;
     top: -100px;
+    right: -170px;
 
 }
 .r4{
     position: relative;
     top: -350px;
-    left: 300px;
+    left: -100px;
 }
 .r4 h4{
     position: relative;
@@ -154,7 +150,7 @@ right: -900px;
     padding: 12px 20px 12px 20px;
     font-size: 20px;
     font-weight: 600;
-    right: -265px;
+    right: -650px;
 
 }
     .r4 h4, .r4 p {
