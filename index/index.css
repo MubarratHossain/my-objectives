@@ -76,7 +76,9 @@ color: antiquewhite;
 }
 .reason h3{
 position: relative; 
-right: -830px;
+right: -830px; 
+font-size: 32px;
+font-weight: 800;
 
 }
 .reason p{
