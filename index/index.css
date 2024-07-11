@@ -31,13 +31,13 @@ text-align: center;
 }
 .Img{
     background-image: url(../assets/Hero-bg.png);
-    position: absolute;
-    width: 1917px;
-    height: 500px;
-    left: 0;
-    right: 0;
-    top: 135px;
-    bottom: 4462px;
+position: absolute;
+width: 1440px;
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
 
 }
 .Middle{
@@ -68,39 +68,58 @@ color: antiquewhite;
     text-align: center;
 }
 .reason{
-    position: absolute;
-    width: 1140px;
-    height: 1550px;
-    left: 148px;
-    right: 152px;
-    top: 857px;
-    bottom: 4000px;
+
 }
 .r2{
 
 }
 .reason h3{
-    position: relative; 
-    text-align: center;
-    font-size: 32px;
-    font-weight: 800;
-    right: -10px;
+  /* Why Web Development?? */
+position: static;
+width: 852px;
+height: 39px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
 }
 .reason p{
-    position: relative;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 400;
-    right: -10px;
-}
+    position: static;
+    width: 852px;
+    height: 52px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+ }
 .r3{
-    position: relative;
-text-align: left;
-padding: 48px;
-display: inline-block;
-top: 10px;
-
+    position: static;
+    width: 477px;
+    height: 220px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
 
 }
 .r3 h4{
